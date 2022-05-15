@@ -1,0 +1,11 @@
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\bin\Debug\BanglaStore.exe.config
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\bin\Debug\BanglaStore.exe
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\bin\Debug\BanglaStore.pdb
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.csprojAssemblyReference.cache
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.frmAdminDashboard.resources
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.Properties.Resources.resources
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.csproj.GenerateResource.cache
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.csproj.CoreCompileInputs.cache
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.exe
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.pdb
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.frmUserDashboard.resources
