@@ -10,3 +10,4 @@ C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStor
 C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.pdb
 C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.UI.frmUsers.resources
 C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.csprojAssemblyReference.cache
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.UI.frmLogin.resources
