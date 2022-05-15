@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using BanglaStore.UI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,6 +37,12 @@ namespace BanglaStore
         private void lblFooter_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void usersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmUsers user = new frmUsers();
+            user.Show();
         }
     }
 }
