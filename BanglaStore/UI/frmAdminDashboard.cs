@@ -44,5 +44,12 @@ namespace BanglaStore
             frmUsers user = new frmUsers();
             user.Show();
         }
+
+        private void frmAdminDashboard_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            frmLogin login = new frmLogin();
+            login.Show();
+            this.Hide();
+        }
     }
 }
