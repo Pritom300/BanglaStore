@@ -24,5 +24,15 @@ namespace BanglaStore
             login.Show();
             this.Hide();
         }
+
+        private void frmUserDashboard_Load(object sender, EventArgs e)
+        {
+            lblLoggedInUser.Text = frmLogin.loggedIn;
+        }
+
+        private void purchaseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

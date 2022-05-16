@@ -128,9 +128,8 @@
             this.lblLoggedInUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLoggedInUser.Location = new System.Drawing.Point(63, 42);
             this.lblLoggedInUser.Name = "lblLoggedInUser";
-            this.lblLoggedInUser.Size = new System.Drawing.Size(106, 21);
+            this.lblLoggedInUser.Size = new System.Drawing.Size(0, 21);
             this.lblLoggedInUser.TabIndex = 3;
-            this.lblLoggedInUser.Text = "Pritom Sarkar";
             // 
             // lblAppFName
             // 

@@ -60,6 +60,7 @@
             this.purchaseToolStripMenuItem.Name = "purchaseToolStripMenuItem";
             this.purchaseToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.purchaseToolStripMenuItem.Text = "Purchase";
+            this.purchaseToolStripMenuItem.Click += new System.EventHandler(this.purchaseToolStripMenuItem_Click);
             // 
             // salesFormsToolStripMenuItem
             // 
@@ -163,6 +164,7 @@
             this.Text = "User Dashboard";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmUserDashboard_FormClosed);
+            this.Load += new System.EventHandler(this.frmUserDashboard_Load);
             this.menuStripTop.ResumeLayout(false);
             this.menuStripTop.PerformLayout();
             this.pnlFooter.ResumeLayout(false);

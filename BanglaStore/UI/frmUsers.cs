@@ -40,29 +40,29 @@ namespace BanglaStore.UI
             u.gender = cmbGender.Text;
             u.user_type = cmbUserType.Text;
             u.added_date = DateTime.Now;
-            u.added_by = 1;  //for experiemnt
+           // u.added_by = 1;  //for experiemnt
 
             //Getting Username of the logged in user
-            //string loggedUser = frmLogin.loggedIn;
-           // userBLL usr = dal.GetIDFromUsername(loggedUser);
+            string loggedUser = frmLogin.loggedIn;
+            userBLL usr = dal.GetIDFromUsername(loggedUser);
 
-            //u.added_by = usr.id;
+            u.added_by = usr.id;
 
             //Inserting Data into DAtabase
             bool success = dal.Insert(u);
-            //If the data is successfully inserted then the value of success will be true else it will be false
+            
             if (success == true)
             {
-                //Data Successfully Inserted
+               
                 MessageBox.Show("User successfully created.");
                 clear();
             }
             else
             {
-                //Failed to insert data
+               
                 MessageBox.Show("Failed to add new user");
             }
-            //Refreshing Data Grid View
+            
             DataTable dt = dal.Select();
             dgvUsers.DataSource = dt;
         }
