@@ -88,6 +88,7 @@
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(366, 25);
             this.txtSearch.TabIndex = 26;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // lblSearch
             // 
@@ -106,6 +107,7 @@
             this.dgvCategories.Name = "dgvCategories";
             this.dgvCategories.Size = new System.Drawing.Size(411, 163);
             this.dgvCategories.TabIndex = 24;
+            this.dgvCategories.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvCategories_RowHeaderMouseClick);
             // 
             // btnDelete
             // 
@@ -119,6 +121,7 @@
             this.btnDelete.TabIndex = 23;
             this.btnDelete.Text = "DELETE";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -131,6 +134,7 @@
             this.btnUpdate.TabIndex = 22;
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnADD
             // 
@@ -144,6 +148,7 @@
             this.btnADD.TabIndex = 21;
             this.btnADD.Text = "ADD";
             this.btnADD.UseVisualStyleBackColor = false;
+            this.btnADD.Click += new System.EventHandler(this.btnADD_Click);
             // 
             // txtDescription
             // 
@@ -224,6 +229,7 @@
             this.Name = "frmCategories";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCategories";
+            this.Load += new System.EventHandler(this.frmCategories_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).EndInit();
