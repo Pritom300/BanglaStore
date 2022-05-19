@@ -62,6 +62,7 @@
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(359, 25);
             this.txtSearch.TabIndex = 40;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // lblSearch
             // 
@@ -80,6 +81,7 @@
             this.dgvDeaCust.Name = "dgvDeaCust";
             this.dgvDeaCust.Size = new System.Drawing.Size(409, 265);
             this.dgvDeaCust.TabIndex = 38;
+            this.dgvDeaCust.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvDeaCust_RowHeaderMouseClick);
             // 
             // btnDelete
             // 
@@ -93,6 +95,7 @@
             this.btnDelete.TabIndex = 37;
             this.btnDelete.Text = "DELETE";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -105,6 +108,7 @@
             this.btnUpdate.TabIndex = 36;
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAdd
             // 
@@ -118,6 +122,7 @@
             this.btnAdd.TabIndex = 35;
             this.btnAdd.Text = "ADD";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtAddress
             // 
@@ -294,6 +299,7 @@
             this.Name = "frmDeaCust";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmDeaCust";
+            this.Load += new System.EventHandler(this.frmDeaCust_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDeaCust)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).EndInit();
             this.panel1.ResumeLayout(false);
