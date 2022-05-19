@@ -34,5 +34,11 @@ namespace BanglaStore
         {
 
         }
+
+        private void dealerAndCustomerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDeaCust deaCust = new frmDeaCust();
+            deaCust.Show();
+        }
     }
 }
