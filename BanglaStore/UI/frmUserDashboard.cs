@@ -53,5 +53,11 @@ namespace BanglaStore
             frmPurchaseAndSales sales = new frmPurchaseAndSales();
             sales.Show();
         }
+
+        private void inventoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInventory inventory = new frmInventory();
+            inventory.Show();
+        }
     }
 }
