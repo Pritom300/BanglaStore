@@ -14,3 +14,4 @@ C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStor
 C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.frmCategories.resources
 C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.UI.frmProducts.resources
 C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.UI.frmDeaCust.resources
+C:\Users\Pritom\Desktop\BanglaStore\BanglaStore\BanglaStore\obj\Debug\BanglaStore.UI.frmPurchaseAndSales.resources

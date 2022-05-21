@@ -32,13 +32,20 @@ namespace BanglaStore
 
         private void purchaseToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmPurchaseAndSales purchase = new frmPurchaseAndSales();
+            purchase.Show();
         }
 
         private void dealerAndCustomerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmDeaCust deaCust = new frmDeaCust();
             deaCust.Show();
+        }
+
+        private void salesFormsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPurchaseAndSales purchase = new frmPurchaseAndSales();
+            purchase.Show();
         }
     }
 }
