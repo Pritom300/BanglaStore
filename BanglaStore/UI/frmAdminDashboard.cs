@@ -70,5 +70,11 @@ namespace BanglaStore
             frmDeaCust deaCust = new frmDeaCust();
             deaCust.Show();
         }
+
+        private void transactionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTransactions transactions = new frmTransactions();
+            transactions.Show();
+        }
     }
 }
