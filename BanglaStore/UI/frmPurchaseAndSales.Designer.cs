@@ -322,6 +322,7 @@
             this.txtSearchProduct.Name = "txtSearchProduct";
             this.txtSearchProduct.Size = new System.Drawing.Size(145, 25);
             this.txtSearchProduct.TabIndex = 7;
+            this.txtSearchProduct.TextChanged += new System.EventHandler(this.txtSearchProduct_TextChanged);
             // 
             // panel1
             // 
