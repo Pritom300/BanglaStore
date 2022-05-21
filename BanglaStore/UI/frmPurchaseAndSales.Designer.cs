@@ -423,6 +423,7 @@
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(223, 25);
             this.txtSearch.TabIndex = 7;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // lblAddress
             // 
@@ -588,6 +589,7 @@
             this.Name = "frmPurchaseAndSales";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPurchaseAndSales";
+            this.Load += new System.EventHandler(this.frmPurchaseAndSales_Load);
             this.pnldataGRidView.ResumeLayout(false);
             this.pnldataGRidView.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAddedProducts)).EndInit();

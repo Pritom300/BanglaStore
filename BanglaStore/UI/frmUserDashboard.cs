@@ -13,6 +13,9 @@ namespace BanglaStore
 {
     public partial class frmUserDashboard : Form
     {
+        //Set a public static method to specify whether the form is purchase or sales
+        public static string transactionType;
+
         public frmUserDashboard()
         {
             InitializeComponent();
@@ -32,6 +35,7 @@ namespace BanglaStore
 
         private void purchaseToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            transactionType = "Purchase";
             frmPurchaseAndSales purchase = new frmPurchaseAndSales();
             purchase.Show();
         }
@@ -44,8 +48,10 @@ namespace BanglaStore
 
         private void salesFormsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmPurchaseAndSales purchase = new frmPurchaseAndSales();
-            purchase.Show();
+            //Set the value to transacionType method to sales
+            transactionType = "Sales";
+            frmPurchaseAndSales sales = new frmPurchaseAndSales();
+            sales.Show();
         }
     }
 }
