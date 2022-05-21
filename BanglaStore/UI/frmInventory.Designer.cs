@@ -128,6 +128,7 @@
             this.Controls.Add(this.dgvProducts);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmInventory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmInventory";
             this.Load += new System.EventHandler(this.frmInventory_Load);
             this.panel1.ResumeLayout(false);

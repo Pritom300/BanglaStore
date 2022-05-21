@@ -61,7 +61,7 @@
             this.lblFooter.AutoSize = true;
             this.lblFooter.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFooter.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.lblFooter.Location = new System.Drawing.Point(596, 6);
+            this.lblFooter.Location = new System.Drawing.Point(636, 6);
             this.lblFooter.Name = "lblFooter";
             this.lblFooter.Size = new System.Drawing.Size(204, 21);
             this.lblFooter.TabIndex = 0;
@@ -70,6 +70,7 @@
             // 
             // menuStripTop
             // 
+            this.menuStripTop.BackColor = System.Drawing.Color.Silver;
             this.menuStripTop.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usersToolStripMenuItem,
             this.categoryToolStripMenuItem,
@@ -147,10 +148,10 @@
             // lblAppFName
             // 
             this.lblAppFName.AutoSize = true;
-            this.lblAppFName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAppFName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAppFName.Location = new System.Drawing.Point(621, 281);
             this.lblAppFName.Name = "lblAppFName";
-            this.lblAppFName.Size = new System.Drawing.Size(84, 25);
+            this.lblAppFName.Size = new System.Drawing.Size(119, 37);
             this.lblAppFName.TabIndex = 4;
             this.lblAppFName.Text = "BANGLA";
             this.lblAppFName.Click += new System.EventHandler(this.lblAppFName_Click);
@@ -158,21 +159,21 @@
             // lblLName
             // 
             this.lblLName.AutoSize = true;
-            this.lblLName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLName.Location = new System.Drawing.Point(698, 281);
+            this.lblLName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLName.Location = new System.Drawing.Point(731, 281);
             this.lblLName.Name = "lblLName";
-            this.lblLName.Size = new System.Drawing.Size(69, 25);
+            this.lblLName.Size = new System.Drawing.Size(99, 37);
             this.lblLName.TabIndex = 5;
             this.lblLName.Text = "STORE";
             // 
             // lblSHead
             // 
             this.lblSHead.AutoSize = true;
-            this.lblSHead.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSHead.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSHead.ForeColor = System.Drawing.Color.Blue;
-            this.lblSHead.Location = new System.Drawing.Point(606, 306);
+            this.lblSHead.Location = new System.Drawing.Point(596, 318);
             this.lblSHead.Name = "lblSHead";
-            this.lblSHead.Size = new System.Drawing.Size(183, 13);
+            this.lblSHead.Size = new System.Drawing.Size(269, 21);
             this.lblSHead.TabIndex = 6;
             this.lblSHead.Text = "Billing and Inventory Mangement";
             this.lblSHead.Click += new System.EventHandler(this.lblSHead_Click);
@@ -181,6 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(1199, 450);
             this.Controls.Add(this.lblSHead);
             this.Controls.Add(this.lblLName);
